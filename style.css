@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5dvh;
+  font-size: larger;
+  padding: 2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: rgb(247, 231, 213);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5dvh;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/* utility CSS */
+.container {
+  margin: auto;
+  max-width: 1600px;
+  padding: 1rem;
+  background-color: rgb(124, 218, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.btns {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+}
+.search-icon {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search input {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Contacts list user CSS */
+.contact-list {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.contact-list span {
+  font-size: xx-large;
+  padding: 1.5rem;
+}
